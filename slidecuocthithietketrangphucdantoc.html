@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=vietnamese" rel="stylesheet">
+    <style>
+        .slide1 {
+            height: 175px;
+            overflow: hidden;
+            margin-right: 10px;
+        }
+        #tieude {
+            text-transform: uppercase;
+            margin-top: 10px;
+            color: black;
+            font-size: 33px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .pic01 {
+            background-color: rgba(84, 38, 112, 0.7);
+            text-align: center;
+            position: absolute;
+            bottom: -52px;
+            right: 15px;
+            padding: 15px 20px;
+            display: block;
+            font-size: 16px;
+            color: white;
+            width: 255px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .pic02 {
+            background-color: rgba(84, 38, 112, 0.7);
+            text-align: center;
+            position: absolute;
+            bottom: -76px;
+            right: 15px;
+            padding: 15px 20px;
+            display: block;
+            font-size: 16px;
+            color: white;
+            width: 255px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .mslide01 {
+            width: 200px;
+            position: relative;
+            height: 250px;
+        }
+        .mslide01:hover .pic01 {
+            bottom: 60px;
+            transition: 0.9s;
+        }
+        .mslide01:hover .pic02 {
+            bottom: 60px;
+            transition: 0.9s;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="tieude">Cuộc thi thiết kế trang phục dân tộc cho đại diện Việt Nam</h3>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active slide1">
+                <div class="row">
+                    <div class="col-md-3 mslide01">
+                        <img src="Image/trangphucdantoc1.png" style="width: 100%" alt="">
+                        <div class="pic01">Các thí sinh cực lộng lẫy trong trang phục dân tộc trong tập 2 "Tôi là Hoa hậu Hoàn Vũ Việt Nam"</div>
+                    </div>
+
+                    <div class="col-md-3 mslide01">
+                        <img src="Image/trangphucdantoc6.jpg" style="width: 100%" alt="">
+                        <div class="pic01"> Á hậu Nguyễn Thị Loan mang Hồn Việt đến Hoa hậu Hoàn vũ 2017</div>
+                    </div>
+
+                    <div class="col-md-3 mslide01">
+                        <img src="Image/trangphucdantoc3.jpg" style="width: 100%" alt="">
+                        <div class="pic01">Hàng trăm bài dự thi tham gia thiết kế trang phục dân tộc cho đại diện Việt Nam tại Hoa hậu Hoàn Vũ</div>
+                    </div>
+
+                    <div class="col-md-3 mslide01">
+                        <img src="Image/trangphucdantoc7.jpg" style="width: 100%" alt="">
+                        <div class="pic01">Công bố 6 “Thiết kế trang phục dân tộc cho đại diện Việt Nam tại Miss Universe”</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item slide1">
+                <div class="row">
+                    <div class="col-md-3 mslide01">
+                        <img src="Image/trangphucdantoc2.jpg" style="width: 100%" alt="">
+                        <div class="pic02">Hoa hậu H'hen Niê đau đầu lựa chọn trang phục truyền thống để chinh chiến trên đấu trường sắc đẹp Miss Universe</div>
+                    </div>
+
+                    <div class="col-md-3 mslide01">
+                        <img src="Image/trangphucdantoc5.jpg" style="width: 100%" alt="">
+                        <div class="pic01">Hoa hậu H’hen Niê nỗ lực tìm kiếm trang phục dân tộc tại Miss Universe 2018</div>
+                    </div>
+
+                    <div class="col-md-3 mslide01">
+                        <img src="Image/trangphucdantoc9.jpg" style="width: 100%" alt="">
+                        <div class="pic01">Bánh mì, bánh xèo được đưa lên trang phục dân tộc Việt Nam thi Miss Universe 2017</div>
+                    </div>
+
+                    <div class="col-md-3 mslide01">
+                        <img src="Image/trangphucdantoc8.jpg" style="width: 100%" alt="">
+                        <div class="pic01">Điểm lại những tà Áo dài Việt Nam gây ấn tượng mạnh trong phần thi quốc phục tại Miss Universe</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+</body>
+</html>
